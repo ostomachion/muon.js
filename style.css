@@ -14,7 +14,27 @@
 
 @font-face {
   font-family: "Avenir";
-  src: url(fonts/Avenir.ttc);
+  font-weight: normal;
+  src: url(fonts/Avenir-Roman.ttf);
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url(fonts/Avenir-Heavy.ttf);
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: normal;
+  font-style: italic;
+  src: url(fonts/Avenir-Oblique.ttf);
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: bold;
+  src: url(fonts/Avenir-HeavyOblique.ttf);
 }
 
 
