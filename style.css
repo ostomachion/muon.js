@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Cinzel";
+  font-weight: normal;
+  src: url(fonts/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Cinzel";
+  font-weight: bold;
+  src: url(fonts/Cinzel-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url(fonts/Avenir.ttc);
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+
+body * {
+  font-family: "Avenir";
+  font-size: 1rem;
+  color: #25282a;
+}
+
+.header, .content {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Cinzel";
+  font-weight: bold;
+  font-size: 4rem;
+  color: #bd9959;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Cinzel";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #bd9959;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+h3 {
+  font-family: "Cinzel";
+  font-weight: bold;
+  font-size: 2rem;
+  color: #25282a;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Avenir";
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #25282a;
+  margin: 0;
+}
+
+h5 {
+  font-family: "Avenir";
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #25282a;
+  margin: 0;
+}
+
+h6 {
+  font-family: "Avenir";
+  font-weight: bold;
+  font-size: 1rem;
+  color: #25282a;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+code {
+  color: #c7254e;
+  font-family: monospace, monospace;
+}
+
+pre {
+  display: block;
+  margin: 0 0 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: .66001rem 9.5px 9.5px;
+  line-height: 1.25rem;
+}
+
+pre code {
+  color: #333;
+}
+
+.header-container {
+  background: #00263a;
+  padding: 40px;
+}
+
+.header * {
+  color: white;
+}
+
+.note {
+  font-style: italic;
+  color: #bd9959;
+}

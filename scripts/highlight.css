@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.light {
+  background: #fdf6e3;
+  color: #657b83;
+}
+
+.dark {
+  background: #002b36;
+  color: #839496;
+}
+
+table {
+  position: absolute;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+tr, td {
+  padding: 0;
+  margin: 0;
+  padding-left: 4px;
+}
+
+.line-number {
+  text-align: right;
+  word-break: normal;
+  white-space: nowrap;
+  user-select: none;
+  padding: 0 8px;
+  color: #93a1a1;
+  font-family: monospace;
+}
+
+.light .line-number {
+  background: #eee8d5;
+}
+
+.dark .line-number {
+  background: #073642;
+}
+
+.line-number::before {
+  content: attr(value);
+}
+
+.last {
+  height: 100%;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+.light .line-comment,
+.light .block-comment { color: #93a1a1; font-style: italic; }
+.dark .line-comment,
+.dark .block-comment-start,
+.dark .block-comment-end,
+.dark .block-comment { color: #586e75; font-style: italic; }
+.elem { color: #268bd2; font-weight: bold; }
+.attr-name {  }
+.attr-val { color: #2aa198; }
+.string-start,
+.string-end,
+.text { color: #2aa198; font-weight: bold; }
+.escape, .escape-start, .escape-end { color: #2aa198; font-style: italic; }
+.url { text-decoration: underline; }
