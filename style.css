@@ -15,12 +15,14 @@
 @font-face {
   font-family: "Avenir";
   font-weight: normal;
+  font-size: normal;
   src: url(fonts/Avenir-Roman.ttf);
 }
 
 @font-face {
   font-family: "Avenir";
   font-weight: bold;
+  font-size: normal;
   src: url(fonts/Avenir-Heavy.ttf);
 }
 
