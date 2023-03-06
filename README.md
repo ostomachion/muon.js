@@ -1,2 +1,1 @@
-# website
-The source code for muonic.org.
+Documentation for an experimental object notation/markup language, implemented in the language itself
